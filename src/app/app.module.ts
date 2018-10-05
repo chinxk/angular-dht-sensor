@@ -5,6 +5,9 @@ import { AppComponent } from './app.component';
 import { HumitureComponent } from './humiture/humiture.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HistoryComponent } from './history/history.component';
+import { HttpModule } from '@angular/http';
+import { HttpClientModule } from '@angular/common/http';
+import { NgxEchartsModule } from 'ngx-echarts';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { HistoryComponent } from './history/history.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpModule,
+    HttpClientModule,
+    NgxEchartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

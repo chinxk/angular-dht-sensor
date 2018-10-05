@@ -4,7 +4,7 @@ import { HumitureComponent } from './humiture/humiture.component'
 import { HistoryComponent } from './history/history.component'
 
 const routes: Routes = [
-  { path: '', redirectTo: '/humiture', pathMatch: 'full' },
+  { path: '', redirectTo: '/history', pathMatch: 'full' },
   { path: 'history', component: HistoryComponent },
   { path: 'humiture', component: HumitureComponent }
 ];

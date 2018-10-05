@@ -1,6 +1,9 @@
 <h2>Humitures History</h2>
+<div>
+  <div echarts [options]="obj" class="demo-chart"></div>
+</div>
 <ul class="humitures">
   <li *ngFor="let humiture of humitures">
-    <span class="badge">{{humiture.id}}</span> <span>{{humiture.humidity}}</span> <span >{{humiture.temperature}}</span> 
+    <span>{{humiture.time}}</span>-<span>{{humiture.humidity}}</span>-<span >{{humiture.temperature}}</span> 
   </li>
 </ul>

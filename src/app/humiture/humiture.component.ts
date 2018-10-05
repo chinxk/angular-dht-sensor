@@ -20,7 +20,7 @@ export class HumitureComponent implements OnInit {
   }
 
   getHumitures(): void {
-    this.humitureService.getHumitures().subscribe(humitures => this.humiture = humitures.pop());
+    this.humitureService.getLatestHumiture().subscribe(humiture => this.humiture = humiture);
   }
 
 }

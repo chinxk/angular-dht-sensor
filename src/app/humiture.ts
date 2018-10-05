@@ -1,6 +1,6 @@
 export class Humiture {
-    id: number;
+    //id: number;
     time: string;
-    humidity: number;
-    temperature: number;
+    humidity: string;
+    temperature: string;
   }
